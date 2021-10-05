@@ -149,7 +149,13 @@ footer{
     height: 30%;
     width: 92%;
   }
-
+.photos{
+    background: url("../Images/backgroundbig.jpg");
+    font-size: 250%;
+    padding: 10rem 4% 10rem 4%;
+    height: 30%;
+    width: 92%;
+    }
   footer{
     height: 1%;
     padding: 2% 5% 3% 3%;
@@ -165,7 +171,13 @@ footer{
     height: 60%;
     width: 92%;
   }
-
+.photos{
+    background: url("../Images/backgroundbig.jpg");
+    font-size: 250%;
+    padding: 10rem 4% 10rem 4%;
+    height: 60%;
+    width: 92%;
+    }
   footer{
     height: 4%;
     font-size: 80%;
@@ -247,4 +259,8 @@ main img{
 
 #last{
   margin: 0 auto 10% auto;
+}
+
+.photos{
+  background: url("../Images/background.jpg");
 }
