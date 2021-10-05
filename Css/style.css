@@ -122,10 +122,7 @@ body {
   width: 92%;
   font-weight: bold;
  }
-.photos{
- color:#ffffff;
- font-size:180%;
-}
+
 .main>p{
   font-size: 70%;
   font-weight: initial;
@@ -152,13 +149,7 @@ footer{
     height: 30%;
     width: 92%;
   }
-.photos{
-    background: url("../Images/backgroundbig.jpg");
-    font-size: 250%;
-    padding: 5rem 4% 10rem 4%;
-    height: 30%;
-    width: 92%;
-    }
+
   footer{
     height: 1%;
     padding: 2% 5% 3% 3%;
@@ -174,13 +165,7 @@ footer{
     height: 60%;
     width: 92%;
   }
-.photos{
-    background: url("../Images/backgroundbig.jpg");
-    font-size: 250%;
-    padding: 10rem 4% 10rem 4%;
-    height: 60%;
-    width: 92%;
-    }
+
   footer{
     height: 4%;
     font-size: 80%;
@@ -190,30 +175,30 @@ footer{
 
 
 input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc; 
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  resize: vertical;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 6px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
   height: auto;
 }
 
 input[type=email], select, textarea {
-  width: 100%; 
-  padding: 12px;  
-  border: 1px solid #ccc;
-  border-radius: 4px; 
-  box-sizing: border-box; 
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 6px; /* Bottom margin */
-  resize: vertical; 
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
   height: auto;
 }
 
-
+/* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: #04AA6D;
   color: white;
@@ -223,12 +208,12 @@ input[type=submit] {
   cursor: pointer;
 }
 
-
+/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: #45a049;
 }
 
-
+/* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -262,8 +247,4 @@ main img{
 
 #last{
   margin: 0 auto 10% auto;
-}
-
-.photos{
-  background: url("../Images/background.jpg");
 }
