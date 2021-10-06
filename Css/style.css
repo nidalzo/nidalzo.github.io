@@ -253,6 +253,9 @@ main img{
 
 @media screen and (orientation: landscape){
     .main{
-       padding: 25% 4% 25% 4%; 
+       padding: 25% 4% 2% 4%; 
+    }
+    .main p{
+        margin: auto auto 25% auto;   
     }
 }
