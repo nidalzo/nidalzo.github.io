@@ -161,10 +161,10 @@ footer{
 @media screen and (min-height: 700px){
 
   .main{
-    background: url("../Images/backgroundbig.jpg");
+    background: url("../Images/background.jpg");
     font-size: 250%;
     padding: 10rem 4% 10rem 4%;
-    height: 60%;
+    height: 80%;
     width: 92%;
   }
 
