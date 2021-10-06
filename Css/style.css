@@ -138,6 +138,10 @@ h2, h3{
   background: #EADDE1;
 }
 
+#contact>h2{
+  text-align: center;
+  font-family: rubik, Arial, sans-serif;
+}
 
 footer{
   background: #8F9491;
@@ -175,6 +179,7 @@ footer{
 
    
   }
+
 
 
 input[type=text], select, textarea {
