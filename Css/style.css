@@ -108,6 +108,7 @@ body {
   width: 92%;
   font-weight: initial;
   overflow: auto;
+  z-index:100;
  }
 
 .main{
