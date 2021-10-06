@@ -9,7 +9,7 @@ body {
   }
   
   header{
-    background: #EADDE1;
+    background: #F3EAF4;
     font-variant: small-caps;
   }
 
@@ -132,10 +132,9 @@ h2, h3{
   margin: 0 auto 0 auto;
   display: block;
   text-align: center;
-  background: #EADDE1;
   margin: 0;
   padding: 5%;
-  background: #EADDE1;
+  background: #F3EAF4;
 }
 
 #contact>h2{
