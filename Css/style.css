@@ -249,3 +249,9 @@ main img{
 #last{
   margin: 0 auto 10% auto;
 }
+
+@media screen and (landscape){
+    .main{
+       padding: 30% 4% 2% 4%; 
+    }
+}
