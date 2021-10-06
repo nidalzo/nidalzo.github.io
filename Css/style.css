@@ -79,6 +79,7 @@ body {
   width: 92%;
   font-weight: initial;
   overflow: auto;
+  background: #E5CEDC;
  }
 
 .main{
@@ -220,7 +221,6 @@ input[type=submit]:hover {
 }
 
 .container1 {
-  background: #E5CEDC;
   padding: 5%;
   border-radius: 5px;
   padding: 1% 4% 1% 4%;
