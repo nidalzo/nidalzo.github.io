@@ -143,7 +143,7 @@ footer{
 
 
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 650px){
   .main{
     background: url("../Images/backgroundbig.jpg");
     font-size: 250%;
