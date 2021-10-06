@@ -107,6 +107,7 @@ body {
   height: 100%;
   width: 92%;
   font-weight: initial;
+  overflow: auto;
  }
 
 .main{
