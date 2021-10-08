@@ -116,21 +116,59 @@ h2, h3{
   font-variant: small-caps;
   font-size: 200%;
 }
-.work>div>img{
-  width: 85%;
+
+#slider {
+  overflow: hidden;
 }
-  
-.work>div>legend{
-  margin: 2% auto 2% auto;
-  font-size: 150%;
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
 }
+#slider figure img {
+  width: 20%;
+  height: 10%;
+  float: left;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
 
 .fields{
   margin: 0 auto 0 auto;
   display: block;
   text-align: center;
-  margin: 0;
-  padding: 5%;
+  padding: 10%;
   background: #F3EAF4;
 }
 
@@ -220,10 +258,6 @@ input[type=submit]:hover {
   padding: 5%;
   border-radius: 5px;
   padding: 1% 4% 1% 4%;
-}
-
-ul{
-  margin: 0;
 }
 
 
