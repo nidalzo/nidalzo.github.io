@@ -125,7 +125,7 @@ h2, h3{
   width: 500%;
   margin: 0;
   left: 0;
-  animation: 20s slider infinite;
+  animation: 15s slider infinite;
 }
 #slider figure img {
   width: 20%;
