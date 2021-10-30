@@ -82,7 +82,6 @@ body {
  }
 
 .main{
-  display: flex;
   background: url("../Images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -91,8 +90,7 @@ body {
   font-size: 200%;
   color: #ffffff;
   padding: 10% 4% 15% 4%;
-  height: 30%;
-  width: 92%;
+  height: 30vh;
   font-weight: bold;
   text-align: left;
   display: block;
@@ -111,7 +109,7 @@ body {
   text-align: center;
   background: #E5CEDC;
   margin: 0;
-  padding: 6% 10% 6% 10%;
+  padding: 5% 10% 5% 10%;
 
 }
 
@@ -120,8 +118,11 @@ h2, h3{
   font-size: 200%;
 }
 
+
 #slider {
   overflow: hidden;
+  width: 60vw;
+  margin: 0 auto;
 }
 #slider figure {
   position: relative;
@@ -132,7 +133,6 @@ h2, h3{
 }
 #slider figure img {
   width: 20%;
-  height: 10%;
   float: left;
 }
 
